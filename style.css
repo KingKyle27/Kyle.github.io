@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+}
+
+img {
+  width: 40px;
+  height: 40px
+}
+
+img :hover {
+  width: 100px;
+  height: 100px;
+}
