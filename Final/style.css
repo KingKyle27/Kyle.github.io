@@ -16,3 +16,26 @@ img :hover {
   width: 1000px;
   height: 1000px;
 }
+#background_1{
+    background-color:black;
+}
+
+#background_2{
+    background-color:darkgreen;
+}
+
+.header{
+    font-size:30px;
+    font-weight:bold;
+    border:dotted;
+}
+
+.content{
+    font-size:30px;
+    border:dashed;
+}
+
+.footer {
+    font-size: 30px;
+    border: solid;
+}
