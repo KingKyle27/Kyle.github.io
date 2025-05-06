@@ -9,30 +9,30 @@ h2 {
 img {
   width: 950px;
   height: 950px;
-  float:right;
+  display: block;
 }
 
-img :hover {
+img : hover {
   width: 1000px;
   height: 1000px;
 }
 #background_1{
-    background-color:black;
+    background-color: black;
 }
 
 #background_2{
-    background-color:darkgreen;
+    background-color: darkgreen;
 }
 
 .header{
     font-size:30px;
-    font-weight:bold;
-    border:dotted;
+    font-weight: bold;
+    border: dotted;
 }
 
 .content{
     font-size:30px;
-    border:dashed;
+    border: dashed;
 }
 
 .footer {
