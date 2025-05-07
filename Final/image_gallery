@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Art Gallery</title>
+</head>
+<body class="image-gallery">
+    <div class="header">
+        <h1>My Art Gallery</h1>
+    </div>
+    <div class="content">
+        <!--gallery images-->
+        <img src="" class="first-row-image" />
+        <img src="" class="first-row-image" />
+        <img src="" class="first-row-image" />
+        <img src="" class="second-row-image" />
+        <img src="" class="second-row-image" />
+        <img src="" class="second-row-image" />
+        <img src="" class="third-row-image" />
+        <img src="" class="third-row-image" />
+        <img src="" class="third-row-image" />
+        <!--gallery images-->
+    </div>
+   
+    <div class="footer">
+        <!--links-->
+        <a href="homepage.html">Home</a>
+        <br />
+        <a href="about_page.html">About</a>
+        <!--links-->
+    </div>
+</body>
+</html>
