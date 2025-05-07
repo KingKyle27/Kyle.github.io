@@ -12,7 +12,7 @@ img {
   display: block;
 }
 
-img : hover {
+img:hover {
   width: 1500px;
   height: 1500px;
 }
