@@ -2,25 +2,34 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
     <title>Art Gallery</title>
 </head>
-<body class="image-gallery">
+<body id="background_3">
     <div class="header">
         <h1>My Art Gallery</h1>
     </div>
-    <div class="content">
+    <div class="image-gallery">
         <!--gallery images-->
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=96A218D0-82BE-4D16-BEDB-3ACE30EC3EA5&zw" class="first-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=D342FC0F-14D5-4B77-80AB-97544D75A0A4&zw" class="first-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.3&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=165DA41E-CD5A-4FB9-AB6A-DA4EB461F757&zw" class="first-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=825C76F3-D545-42E6-9A6C-ED8B15F3F58B&zw" class="second-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=BB2473B2-9137-4D59-9EC2-8DD14C465B52&zw" class="second-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.3&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=A4BB0706-070C-4076-A9DA-28D9327255FF&zw" class="second-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.4&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=7767F83D-8E65-4F85-8E93-F686FDD0B88D&zw" class="third-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r-7776039941073747713&th=196b3094717e3ee3&view=att&disp=safe&realattid=F2EB4E3B-2CA8-4758-A8C9-122F545552F4&zw" class="third-row-image" />
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r-7776039941073747713&th=196b3094717e3ee3&view=att&disp=safe&realattid=BD4D8F71-8812-481F-9167-0C91A8F394BD&zw" class="third-row-image" />
-        <!--gallery images-->
+        <div class="first-row-images">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=96A218D0-82BE-4D16-BEDB-3ACE30EC3EA5&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=D342FC0F-14D5-4B77-80AB-97544D75A0A4&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.3&permmsgid=msg-a:r2005592344381986109&th=196b2fbf2811bc3f&view=att&disp=safe&realattid=165DA41E-CD5A-4FB9-AB6A-DA4EB461F757&zw" />
+        </div>
+        
+        <div class="second-row-images">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=825C76F3-D545-42E6-9A6C-ED8B15F3F58B&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=BB2473B2-9137-4D59-9EC2-8DD14C465B52&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.3&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=A4BB0706-070C-4076-A9DA-28D9327255FF&zw" />
+        </div>
+       
+        <div class="third-row-images">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.4&permmsgid=msg-a:r1717202361018843690&th=196b2fc8992fbeaa&view=att&disp=safe&realattid=7767F83D-8E65-4F85-8E93-F686FDD0B88D&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.2&permmsgid=msg-a:r-7776039941073747713&th=196b3094717e3ee3&view=att&disp=safe&realattid=F2EB4E3B-2CA8-4758-A8C9-122F545552F4&zw" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=4f5a99e08d&attid=0.1&permmsgid=msg-a:r-7776039941073747713&th=196b3094717e3ee3&view=att&disp=safe&realattid=BD4D8F71-8812-481F-9167-0C91A8F394BD&zw" />
+        </div>
+                <!--gallery images-->
     </div>
    
     <div class="footer">
@@ -31,4 +40,5 @@
         <!--links-->
     </div>
 </body>
+
 </html>
