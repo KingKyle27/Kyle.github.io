@@ -19,11 +19,11 @@ img {
     display: block;
 }
 
-    img:hover {
-        width: 1890px;
-        height: 1890px;
-        transition:2s;
-    }
+img:hover {
+    width: 1890px;
+    height: 1890px;
+    transition:2s;
+}
 
 .table_of_contents_link {
     text-indent: 50px;
@@ -34,27 +34,27 @@ img {
     display:grid;
     grid-auto-rows:100px;
     grid-row:1/span 2;
-    justify-items:center;
+    justify-items:left;
 }
 
-.first-row-image {
-    width:1000px;
+.first-row-images {
+    width:750px;
     padding:10px;
     margin:auto;
     border:solid;
     border-width:10px;
 }
 
-.second-row-image {
-    width: 750px;
+.second-row-images {
+    width: 500px;
     padding: 10px;
     margin: auto;
     border: dashed;
     border-width:5px;
 }
 
-.third-row-image {
-    width: 500px;
+.third-row-images {
+    width:250px;
     padding: 10px;
     margin: auto;
     border: solid;
@@ -67,6 +67,10 @@ img {
 
 #background_2 {
     background-color: darkgreen;
+}
+
+#background_3 {
+    background-color: lightsalmon;
 }
 
 .header {
