@@ -14,6 +14,10 @@ p {
     text-align:left;
 }
 
+a {
+    color:cornflowerblue;
+}
+
 img {
     width:1200px;
     height:1200px;
@@ -50,7 +54,7 @@ img:active {
     padding:10px;
     margin:20px;
     border:solid;
-    border-width:15px;
+    border-width:20px;
     border-color:darkblue;
 }
 
@@ -64,7 +68,7 @@ img:active {
     padding:10px;
     margin:20px;
     border:solid;
-    border-width:15px;
+    border-width:20px;
     border-color:darkblue;
 }
 
@@ -78,7 +82,7 @@ img:active {
     padding:10px;
     margin:20px;
     border:solid;
-    border-width:15px;
+    border-width:20px;
     border-color:darkblue;
 }
 
@@ -92,7 +96,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: dashed;
-    border-width:10px;
+    border-width:15px;
     border-color:darkblue;
 }
 
@@ -106,7 +110,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: dashed;
-    border-width:10px;
+    border-width:15px;
     border-color:darkblue;
 }
 
@@ -120,7 +124,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: dashed;
-    border-width:10px;
+    border-width:15px;
     border-color:darkblue;
 }
 
@@ -134,7 +138,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: solid;
-    border-width:5px;
+    border-width:10px;
     border-color:darkblue;
 }
 
@@ -148,7 +152,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: solid;
-    border-width:5px;
+    border-width:10px;
     border-color:darkblue;
 }
 
@@ -162,7 +166,7 @@ img:active {
     padding:10px;
     margin:20px;
     border: solid;
-    border-width:5px;
+    border-width:10px;
     border-color:darkblue;
 }
 
@@ -183,16 +187,25 @@ img:active {
     font-weight: bold;
     border: dotted;
     border-color:aquamarine;
+    margin:5px;
+    padding:10px;
+    border-width:5px;
 }
 
 .content {
     font-size: 30px;
     border: dashed;
     border-color:chartreuse;
+    margin:5px;
+    padding:10px;
+    border-width:5px;
 }
 
 .footer {
     font-size: 30px;
     border: solid;
-    border-color:forestgreen
+    border-color:forestgreen;
+    margin:5px;
+    padding:10px;
+    border-width:5px;
 }
