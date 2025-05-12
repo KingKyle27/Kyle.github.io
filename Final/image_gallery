@@ -38,6 +38,8 @@
         <a href="homepage.html">Home</a>
         <br />
         <a href="about_page.html">About</a>
+        <br />
+        <a href="timeline.html">Timeline</a>
         <!--links-->
     </div>
 </body>
