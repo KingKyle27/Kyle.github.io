@@ -25,9 +25,10 @@ img {
 }
 
 img:active {
-    width:1410px;
-    height:1410px;
+    width:1340px;
+    height:1340px;
     transition:2s;
+    margin:10px;
 }
 
 .table_of_contents_link {
@@ -182,6 +183,10 @@ img:active {
     background-color: lightsalmon;
 }
 
+#background_4 {
+    background-color:ghostwhite;
+}
+
 .header {
     font-size: 30px;
     font-weight: bold;
@@ -208,4 +213,24 @@ img:active {
     margin:5px;
     padding:10px;
     border-width:5px;
+}
+
+th, td {
+    border: lightblue 2px dashed; 
+    background-color:blueviolet;
+    color:floralwhite;
+    width:1340px;
+    height:250px;
+    padding:10px;
+    margin:20px;
+}
+
+table {
+    border: blue 20px solid;
+    background-color: blueviolet;
+    color: floralwhite;
+    width: 1340px;
+    height: 250px;
+    padding: 10px;
+    margin: 20px;
 }
